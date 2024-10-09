@@ -5,6 +5,9 @@
     
 
 }
+h2{
+    color:white;
+}
 h1{
     color :white;
     font-style: oblique;
@@ -51,7 +54,7 @@ li.head{
 }
 li.head:hover{
     background-color: rgb(175, 175, 175);
-    scale: 1.3;
+    scale: 1.1;
 }
 li:first-child{
     margin-left:-20px;
@@ -97,12 +100,32 @@ div.bar{
     padding-bottom: 100%;
     float:left;
     padding-right:0;
+    height: 120%;
+    
   
 }
 
 div.logo{
     display: inline-block;
     margin-left: 30px;
+}
+/*ABOUT*/
+div.content{
+    margin-right: 300px;
+    padding-left: 100px;
+    position: center;
+}
+h1.about {
+    padding-top: 20px;
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+}
+p.us {
+    font-size: larger;
+    font-family: Crimson Text;
+    text-align: center;
+
 }
 
 header{
@@ -117,6 +140,7 @@ header{
 h1.news_1{
     font-size: 50;
     margin:20;
+    text-align: center;
 }
 p{
     color: white;
@@ -151,6 +175,9 @@ img.Duterte{
 }
 p.article_duterte{
     margin-top:20;
+}
+section.whole{
+  align-self: flex-start;
 }
 
 

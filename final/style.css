@@ -113,9 +113,17 @@ div.logo{
 /*ABOUT*/
 
 div.content{
+    margin-left: 300px;
     margin-right: 300px;
-    padding-left: 100px;
-    position: center;
+}
+div.icon {
+    padding: auto;
+    margin-left: 250px;
+    margin-right: 500px;
+}
+img.icon {
+    width: 200;
+    height: 200;
 }
 h1.about {
     padding-top: 20px;
@@ -126,7 +134,7 @@ h1.about {
 p.us {
     font-size: larger;
     font-family: Crimson Text;
-    text-align: center;
+    text-align: justify;
 
 }
 

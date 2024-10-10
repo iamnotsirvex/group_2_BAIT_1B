@@ -1,0 +1,190 @@
+.link{
+
+    color: white;
+    text-decoration: none;
+    
+
+}
+h2{
+    color:white;
+}
+h1{
+    color :white;
+    font-style: oblique;
+    font-size: 100;
+    padding: 0px;
+    margin: -5px;
+    margin-bottom: -100px;
+    margin-left: 20px;
+    margin-top: 40px;
+    cursor: pointer
+}
+h1.contact{
+    color :white;
+    font-style: oblique;
+    font-size: 100;
+    padding: 0px;
+    margin-top:-50px;
+    margin-left:10%;
+
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+ul{
+    list-style: none;
+    padding-bottom: -50px;
+    
+
+}
+li.head{
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: -70px;
+    font-size: 20px;
+    padding: 20px;
+    margin-top:-30px;
+    margin-bottom:-30px;
+    border-radius: 10px;
+    transition: 200ms ease;
+    text-align: left;
+
+}
+li.head:hover{
+    background-color: rgb(175, 175, 175);
+    scale: 1.3;
+}
+li:first-child{
+    margin-left:-20px;
+    
+}
+
+li.nav{
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: -70px;
+    font-size: 20px;
+    padding: 20px;
+    margin-top:-30px;
+    margin-bottom:-30px;
+    border-radius: 10px;
+    transition: 200ms ease;
+}
+
+section.feature-box.sec_1{
+    display: flex;
+    transition: 200ms ease;
+}
+section.feature-box.sec_1:hover{
+    color: white;
+    background: rgb(148, 146, 146);
+    width: 100%;
+    margin: 5;
+    padding: 10px;
+    border-radius: 10px
+}
+
+section.feature-box.sec_1 li{
+    color: white;
+    background: rgb(39, 39, 39);
+    width: 100%;
+    margin: 5;
+    padding: 10px;
+    border-radius: 10px
+}
+div.bar{
+    background-color:rgb(82, 81, 81);
+    padding-bottom: 30000;
+    float:left;
+    padding-right:0;
+    height: 120%;
+    
+  
+}
+
+div.logo{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+header{
+    background-image:url("bg-banner.jpg");
+    background-color: rgb(44, 44, 44);
+    background-position:100%;
+    background-size:100%;
+    padding-top: 20px;
+    height: 200px;
+
+}
+h1.news_1{
+    font-size: 50;
+    margin:20;
+    text-align: center;
+}
+p{
+    color: white;
+    text-align: justify;
+}
+@media screen  and  (max-width: 700px) {}header{
+    height:300px;
+    background-position: 0 0px;
+    background-size: 100%
+}
+
+footer {
+background-color: gray;
+color:aliceblue;
+text-align: center;
+font-size: 1rem;
+position: fixed;
+width: 100%;
+bottom: 0;
+padding: 1px;
+}
+div.news{
+   
+    float:top;
+    float:center;
+    margin-top:0;
+}
+img.Duterte{
+    margin-top: 20;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+p.article_duterte{
+    margin-top:20;
+    font-size: 20;
+    
+}
+section.whole{
+  align-self: flex-start;
+}
+.contact{
+    display: flex;
+}
+h2.email{
+    text-align: center;
+
+
+}
+h2.facebook{
+    text-align: center;
+}
+.facebookLogo{
+    transition: 200ms ease;
+}
+.facebookLogo:hover{
+    scale: 1.1;
+}
+
+
+
+
+
